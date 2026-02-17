@@ -3,7 +3,7 @@ name: Deploy Angular App to GitHub Pages
 on:
   push:
     branches:
-      - main  # or master
+      - main
 
 jobs:
   build-and-deploy:
@@ -23,7 +23,7 @@ jobs:
         run: npm install -g @angular/cli
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci
 
       - name: Build Angular app
         run: ng build --configuration production --base-href "/angular-local-crud/"
@@ -32,4 +32,6 @@ jobs:
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist/angular-local-crud
+          publish_branch: gh-pages
+          publish_dir: ./dist/angular-local-crud/browser
+          keep_files: false
