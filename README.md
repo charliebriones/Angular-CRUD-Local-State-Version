@@ -35,4 +35,18 @@ This project focuses on mastering Angular fundamentals without relying on a back
 
 ---
 
+## Getting Started
+
+### Prerequisites
+
+- Node.js >= 18.x  
+- Angular CLI >= 16.x
+
+### Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/<your-username>/angular-local-crud.git
+
 
