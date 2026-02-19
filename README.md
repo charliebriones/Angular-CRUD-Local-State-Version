@@ -47,6 +47,7 @@ This project focuses on mastering Angular fundamentals without relying on a back
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/<your-username>/angular-local-crud.git
+git clone [https://github.com/<your-username>/angular-local-crud.git](https://github.com/charliebriones/angular-local-crud)
+
 
 
