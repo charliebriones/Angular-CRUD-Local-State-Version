@@ -35,5 +35,4 @@ This project focuses on mastering Angular fundamentals without relying on a back
 
 ---
 
-## Project Structure
 
