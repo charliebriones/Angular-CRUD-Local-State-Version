@@ -13,7 +13,7 @@ import { Router } from '@angular/router';
   templateUrl: 'user-list.component.html',
 })
 export class UserList {
-  displayedColumns: string[] = ['id', 'name', 'email', 'actions'];
+  displayedColumns: string[] = ['id', 'name', 'email', 'username', 'actions'];
   userService = inject(UserService);
   dialog = inject(MatDialog);
   router = inject(Router);
