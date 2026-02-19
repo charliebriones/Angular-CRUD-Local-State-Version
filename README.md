@@ -1,53 +1,52 @@
 # Angular Local CRUD
 
-A simple Angular CRUD application using local/in-memory data to demonstrate core Angular concepts and component architecture.
+This is a sample **Angular Local CRUD** application demonstrating a modern Angular 16+ standalone setup with in-memory data. It supports **CRUD operations** and is ideal for learning Angular fundamentals and building a clean, modular frontend architecture.
 
 ---
 
 ## Table of Contents
-- [Overview](#overview)
+
 - [Features](#features)
-- [Project Structure](#project-structure)
-- [Getting Started](#getting-started)
-- [Usage](#usage)
-- [Technologies](#technologies)
-- [Contributing](#contributing)
+- [Tech Stack](#tech-stack)
+- [Prerequisites](#prerequisites)
+- [Setup & Development](#setup--development)
+- [Running the Angular App](#running-the-angular-app)
 - [License](#license)
-
----
-
-## Overview
-
-`angular-local-crud` is a sample Angular application that implements full Create, Read, Update, and Delete functionality using local or in-memory data.  
-
-This project focuses on mastering Angular fundamentals without relying on a backend, making it ideal for learning and portfolio purposes.
 
 ---
 
 ## Features
 
-- Full CRUD operations (Create, Read, Update, Delete)  
-- Standalone components  
-- Reactive forms for input validation  
-- Component-based architecture  
-- In-memory/local data storage  
-- Responsive UI  
+- Full CRUD operations for users/items
+- Angular 16+ standalone components
+- Reactive forms with validation
+- In-memory/local data storage
+- Modular, clean project structure
+- Responsive UI design
 
 ---
 
-## Getting Started
+## Tech Stack
 
-### Prerequisites
+- **Frontend:** Angular 16+, TypeScript, SCSS  
+- **State Management:** RxJS, Services  
+- **Other Tools:** Angular CLI
 
-- Node.js >= 18.x  
-- Angular CLI >= 16.x
+---
 
-### Installation
+## Prerequisites
 
-1. Clone the repository:
+- Node.js >= 20  
+- npm >= 9  
+- Angular CLI >= 16  
+- Git
+
+---
+
+## Setup & Development
+
+### 1. Clone the repository
 
 ```bash
-git clone [https://github.com/<your-username>/angular-local-crud.git](https://github.com/charliebriones/angular-local-crud)
-
-
-
+git clone https://github.com/charliebriones/angular-local-crud.git
+cd angular-local-crud
