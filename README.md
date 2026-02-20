@@ -1,4 +1,4 @@
-# Angular Local CRUD
+# Angular-CRUD-Local-State-Version
 
 This is a sample **Angular Local CRUD** application demonstrating a modern Angular 16+ standalone setup with in-memory data. It supports **CRUD operations** and is ideal for learning Angular fundamentals and building a clean, modular frontend architecture.
 
@@ -50,3 +50,4 @@ This is a sample **Angular Local CRUD** application demonstrating a modern Angul
 ```bash
 git clone https://github.com/charliebriones/angular-local-crud.git
 cd angular-local-crud
+
