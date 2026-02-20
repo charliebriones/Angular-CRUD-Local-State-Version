@@ -1,1 +1,57 @@
-<router-outlet />
+<mat-toolbar color="primary" class="toolbar">
+  <div class="header-text">
+    <span class="app-title">User Management System – Frontend-Only CRUD</span>
+    <span class="deployment-info">
+      Angular (GitHub Pages) • In-Memory Data (No API / No Database)
+    </span>
+  </div>
+</mat-toolbar>
+
+<div class="content">
+  <router-outlet></router-outlet>
+
+  <!-- Footer Resources -->
+  <div class="footer-links">
+    <mat-divider></mat-divider>
+
+    <h3 class="footer-title">Project Resources</h3>
+
+    <div class="links-container">
+      <a
+        class="resource-link"
+        href="https://charliebriones.github.io/angular-fullstack-crud/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        View Full Stack Version (API + Azure SQL)
+      </a>
+
+      <a
+        class="resource-link"
+        href="https://github.com/charliebriones/angular-local-crud"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Angular Local CRUD Repository
+      </a>
+
+      <a
+        class="resource-link"
+        href="https://github.com/charliebriones/angular-fullstack-crud"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Full Stack Angular Repository
+      </a>
+
+      <a
+        class="resource-link"
+        href="https://github.com/charliebriones/UserManagement"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        .NET API Repository (used by Full Stack)
+      </a>
+    </div>
+  </div>
+</div>

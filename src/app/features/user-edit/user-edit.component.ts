@@ -55,7 +55,7 @@ export class UserEdit {
     const newUser = this.userFormGroup.value;
 
     const user: User = {
-      id: newUser.id ?? new Date().getDate(),
+      id: newUser.id ?? new Date().getTime(),
       name: newUser.name!,
       email: newUser.email!,
       username: newUser.username!,
