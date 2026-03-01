@@ -1,8 +1,17 @@
 .page-card {
-  margin: 24px;
+  margin: 24px auto;
   max-width: 600px;
 }
 
+.page-header {
+  min-width: 0;
+}
+
+.page-content {
+  padding-top: 12px;
+}
+
+/* Form layout */
 .form-layout {
   display: flex;
   flex-direction: column;
@@ -14,7 +23,33 @@ mat-form-field {
   width: 100%;
 }
 
+/* Actions */
 .button-container {
   display: flex;
   gap: 12px;
+  flex-wrap: wrap; /* ✅ wraps if space is tight */
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .page-card {
+    margin: 12px;
+  }
+
+  .button-container {
+    width: 100%;
+    justify-content: flex-end;
+  }
+}
+
+/* Extra small phones: full-width buttons */
+@media (max-width: 420px) {
+  .button-container {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .button-container button {
+    width: 100%;
+  }
 }
